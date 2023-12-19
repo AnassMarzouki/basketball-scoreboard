@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        
+
+        
+        <body>
+            <h1> Basketball Scoreboard</h1>
+            <div id="container">
+                <div id="TeamA">
+                    <h1>Team A</h1>
+                    <h1 id="a-score">0</h1>
+                    <button onclick="AplusOne()">+1</button>
+                    <button onclick="AplusTwo()">+2</button>
+                    <button onclick="AplusThree()">+3</button>
+                </div>
+                
+                <div id="TeamB">
+                    <h1>Team B</h1>
+                    <h1 id="b-score">0</h1>
+                    <button onclick="BplusOne()">+1</button>
+                    <button onclick="BplusTwo()">+2</button>
+                    <button onclick="BplusThree()">+3</button>
+                </div>
+
+            </div>
+            <script src="core.js"></script>
+
+        <button id="new-game" onclick="newGame()">New Game</button>
+
+        </body>
+    </head>
+</html>
