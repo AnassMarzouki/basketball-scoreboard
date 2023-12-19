@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-around;
     background-color: coral;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 10px;
     border: 2px solid black;
     font-family: Verdana;
